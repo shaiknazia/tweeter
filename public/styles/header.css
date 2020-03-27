@@ -12,8 +12,13 @@ header {
 .avatar {
   
 }
+ 
+header h2 {
+  display: none;
+}
 
 .name h2 {
+  display: block;
   margin: 0;
 }
 
