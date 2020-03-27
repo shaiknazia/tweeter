@@ -1,0 +1,71 @@
+
+
+.tweet {
+  background-color: #F4F1EC; 
+  border: 3px solid #545149;
+  padding: 5px;
+  margin: 60px 0;
+  font-family: 'Baloo 2';
+}
+
+.handle {
+  display: none;
+}
+
+.tweet:hover {
+  box-shadow: 10px 10px 0 #D79A39;
+}
+
+.tweet:hover .handle {
+  display: block;
+}
+
+.tweet:hover .ok {
+  display: none;
+}
+
+
+.tweet hr {
+  height: 2px;
+  background-color: #545149;
+  margin: 3px;
+}
+
+.tweet-feed {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header, .feed, .duration, .footer {
+  font-size: 22px;
+  padding: 15px;
+}
+
+.handle {
+  color: lightgray;
+}
+
+
+
+.date {
+  font-size: 16px;
+}
+
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+};
+
+.avatars {
+  height: 30px;
+  width: auto;
+}
+
+.name {
+  display: inline;
+}
+

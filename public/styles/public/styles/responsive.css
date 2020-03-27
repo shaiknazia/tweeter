@@ -1,0 +1,45 @@
+@media only screen and (min-width: 768px) {
+  
+
+  header {
+    height: 50%;
+    width: 40%;
+    margin: 10% 5% 30%;
+
+  } 
+
+  .avatar img {
+    padding-top: 20px;
+  }
+
+  .name h2 {
+    display: none;
+  }
+
+  header h1 {
+    display: block;
+
+  }
+
+  main {
+    width: 55%;
+    margin: 0 5% 5% 5%;
+    
+  } 
+
+  body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background:
+    radial-gradient(rgb(233, 228, 165) 3px, transparent 4px),
+    radial-gradient(rgb(233, 228, 165) 3px, transparent 4px),
+    linear-gradient(#fff 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, #e1e3ec 75px, #e1e3ec 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, #e1e3ec 76px, #e1e3ec 77px, transparent 78px, transparent 109px),
+    #fff;
+    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+  }
+
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta Information -->
+    <title>Tweeter - Home Page</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" type="text/css" />
+
+    <!-- App CSS -->
+    <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/header.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/tweet.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/responsive.css" type="text/css" />
+
+    <!-- Goole Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Source+Sans+Pro:300i,700i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+2&display=swap" rel="stylesheet">
+    <!-- font-family: 'Bungee', cursive;
+        font-family: 'Source Sans Pro', sans-serif;
+ -->
+    <!-- External JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- App JS -->
+  <script type="text/javascript" src="/scripts/client.js"></script>
+  <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
+
+  </head>
+
+  <body>
+    <!-- Top nav bar (fixed) -->
+    <nav class="nav">
+      <span>tweeter</span>
+       <a href="#tweet-text"><div class="nav2">
+          <span class="write">Write a new tweet</span>
+          <img class="write-icon"  src="images/giphy.gif" alt="this slowpoke moves"  width=50/>
+        </div>
+      </a> 
+    </nav>
+    <!-- Header -->
+    <header>
+      <h2>Nazia Shaik</h2>
+      <div class= "avatar">
+          <img src="/images/profile-hex.png"> 
+      </div>
+      <br>
+      <div class= "name">
+          <h2>Nazia Shaik</h2>
+      </div>
+  </header>
+
+    <!-- Page-specific (main) content here -->
+  <main class="tweets-container">
+    <section class="new-tweet">
+      <h2>Compose Tweet</h2>
+      <h5 id="more-chars">Your tweet must be equal to or less than 140 characters. &#128683</h5>
+      <h5 id="none">Your Tweet is empty and cannot be posted. &#128680</h5>
+
+      <form id= "form" method="POST" action="/tweets/">
+      
+        <label class="label" for="tweet-text"></label>
+        <textarea name="text" id="tweet-text" placeholder="What are you humming about?"></textarea> 
+        <br><hr class="hr">
+        <div class="tweet-info">
+          <button type="submit">Tweet</button>
+          <output name="counter" class="counter" for="tweet-text">140</output>
+        </div>
+      </form>
+          <!-- Old Tweets Stored here -->
+    <section id="tweets-container">
+    </section>
+    </section>
+  </main>
+  
+  </body>
+</html>

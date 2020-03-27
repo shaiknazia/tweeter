@@ -1,0 +1,49 @@
+  
+.new-tweet h2 {
+  display: flex;
+  justify-content: center;
+  
+}
+
+hr {
+  height: 2px;
+  background-color: #545149;
+  padding: 0;
+  margin: 0;
+}
+
+.tweet-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Bungee', cursive;
+  color: #545149;
+}
+
+.tweet-info button {
+  background-color: #4152A1;
+  color: #FFFFFF;
+  border-radius: 5px;
+}
+
+#tweet-text {
+  border: none;
+  width: 100%;
+  background-color: #F4F1EC;
+  height: 30px;
+  padding: 0;
+  margin-top: 10px;
+}
+
+#none, #more-chars {
+  display: none;
+}
+
+.tweet-validity {
+  display: flex;
+  border: 2px solid red;
+  padding: 10px;
+  color: teal;
+  justify-content: center;
+  align-items: center;
+}
