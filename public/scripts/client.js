@@ -55,7 +55,7 @@ $(document).ready(function() {
       </div>
       <h3 class="header handle">${tweet.user.handle}</h3>
     </div>
-    <p class="feed">${tweet.content.text}</p> <hr>
+    <p class="feed">${escape(tweet.content.text)}</p> <hr>
     <div class="footer">
       <span class="date">Created on: ${date}</span>
       <span class = "icons">&#128681; &#128257 &#128147</span>
