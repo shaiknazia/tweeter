@@ -14,3 +14,9 @@ Tweeter is a simple, single-page Twitter clone.
 
 - Express
 - Node 5.10.x or above
+
+## Screenshots
+
+![Screenshot of home page](https://github.com/shaiknazia/tweeter/blob/master/docs/Tweeter%20Home%20Page.png)
+
+![Screenshot of responsive page on 768px screen](https://github.com/shaiknazia/tweeter/blob/master/docs/Responsive-View-768px.png)
