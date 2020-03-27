@@ -10,16 +10,16 @@ header {
 }
 
 .avatar {
-  
+  padding-top: 15px;
 }
- 
-header h2 {
-  display: none;
+.header-bottom {
+  display: block;
 }
 
-.name h2 {
-  display: block;
-  margin: 0;
-}
+.header-top {
+  display: none;
+} 
+
+
 
 

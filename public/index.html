@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/styles/header.css" type="text/css" />
     <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
     <link rel="stylesheet" href="/styles/tweet.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/responsive.css" type="text/css" />
 
     <!-- Goole Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Bungee|Source+Sans+Pro:300i,700i&display=swap" rel="stylesheet">
@@ -20,6 +21,12 @@
     <!-- font-family: 'Bungee', cursive;
         font-family: 'Source Sans Pro', sans-serif;
  -->
+    <!-- External JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- App JS -->
+  <script type="text/javascript" src="/scripts/client.js"></script>
+  <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
 
   </head>
 
@@ -27,15 +34,21 @@
     <!-- Top nav bar (fixed) -->
     <nav class="nav">
       <span>tweeter</span>
+       <a href="#tweet-text"><div class="nav2">
+          <span class="write">Write a new tweet</span>
+          <img class="write-icon"  src="images/giphy.gif" alt="this slowpoke moves"  width=50/>
+        </div>
+      </a> 
     </nav>
     <!-- Header -->
     <header>
+      <h2 class="header-top">Nazia Shaik</h2>
       <div class= "avatar">
           <img src="/images/profile-hex.png"> 
       </div>
       <br>
       <div class= "name">
-          <h2>Nazia Shaik</h2>
+          <h2 class="header-bottom">Nazia Shaik</h2>
       </div>
   </header>
 
@@ -61,11 +74,6 @@
     </section>
     </section>
   </main>
-  <!-- External JS -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-  <!-- App JS -->
-  <script type="text/javascript" src="/scripts/client.js"></script>
-  <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
+  
   </body>
 </html>
