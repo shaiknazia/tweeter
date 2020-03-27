@@ -21,13 +21,6 @@
         font-family: 'Source Sans Pro', sans-serif;
  -->
 
-    <!-- External JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-    <!-- App JS -->
-    <script type="text/javascript" src="/scripts/client.js"></script>
-    <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
-
   </head>
 
   <body>
@@ -47,11 +40,11 @@
   </header>
 
     <!-- Page-specific (main) content here -->
-  <main class="container">
+  <main class="tweets-container">
     <section class="new-tweet">
       <h2>Compose Tweet</h2>
-      <h5 id="more-chars">Your tweet must be equal to or less than 140 characters.</h5>
-      <h5 id="none">Your Tweet is empty and cannot be posted.</h5>
+      <h5 id="more-chars">Your tweet must be equal to or less than 140 characters. &#128683</h5>
+      <h5 id="none">Your Tweet is empty and cannot be posted. &#128680</h5>
 
       <form id= "form" method="POST" action="/tweets/">
       
@@ -68,5 +61,11 @@
     </section>
     </section>
   </main>
+  <!-- External JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- App JS -->
+  <script type="text/javascript" src="/scripts/client.js"></script>
+  <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
   </body>
 </html>
